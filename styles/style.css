@@ -1,0 +1,163 @@
+/* global */
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* player  */
+
+#media-buttons {
+    padding-left: 5%;
+}
+
+#media-progress {
+    height: 5px;
+    width: 100%;
+}
+
+
+/* sidebar */
+
+#sidebar {
+    padding: 0;
+    background: #f4f4f4;
+}
+
+#sidebar-header {
+    min-height: 200px;
+    padding: 20px 0 0 20px;
+    background: #000;
+    color: #f4f4f4;
+}
+
+#main-heading {
+    font-size: 35px;
+    font-weight: bolder;
+}
+
+#sidebar-header i {
+    font-size: 80px;
+}
+
+#app-menu a {
+    color: #C43538;
+}
+
+#app-menu #playlist-link {
+    background: #C43538;
+    color: #f4f4f4;
+}
+
+
+/* main */
+
+#main {
+    padding: 0;
+}
+
+#showcase {
+    background: url(../images/pexel3.jpeg) no-repeat 0 -600px;
+    background-attachment: fixed;
+    min-height: 312px;
+    border-radius: 0;
+    border-bottom: 3px solid #ccc;
+}
+
+#playlist-header {
+    padding-left: 35px;
+    font-weight: bolder;
+}
+
+.playlist-row {
+    margin: 0;
+    padding: 0 20px 0 20px;
+}
+
+#playlist-row2 {
+    padding-bottom: 10%;
+}
+
+#main img {
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+}
+
+
+/* footer */
+
+footer {
+    width: 100%;
+    height: 100px;
+    padding-top: 30px;
+    background: #000;
+    color: #fff;
+    box-sizing: border-box;
+    position: fixed;
+    bottom: 0;
+}
+
+#bars {
+    color: #C43538;
+}
+
+#back,
+#forward,
+#bars {
+    font-size: 30px;
+}
+
+.boxes {
+    padding-left: 90px;
+}
+
+#pg-bar {
+    padding-top: 15px;
+}
+
+#play {
+    font-size: 40px;
+}
+
+#p-bar1 {
+    background: rgb(148, 142, 142);
+    width: 25%;
+}
+
+@media(max-width: 768px)
+/* @media only screen and (max-device-width: 1366px) */
+
+{
+    #showcase {
+        background-attachment: scroll;
+        min-height: 200px;
+    }
+    #playlist-row2 {
+        padding-bottom: 30%;
+    }
+    #play-icons,
+    #pg-bar,
+    #media-buttons,
+    #bars-icon {
+        padding: 0;
+    }
+    #media-buttons {
+        text-align: center;
+    }
+    #pg-bar {
+        width: 85%;
+        padding-top: 15px;
+    }
+    #media-progress {
+        width: 90%;
+        float: right;
+        box-sizing: border-box;
+    }
+    #bars-icon {
+        width: 15%;
+        text-align: center;
+        box-sizing: border-box;
+    }
+}
