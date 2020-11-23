@@ -5,6 +5,15 @@ body {
     padding: 0;
 }
 
+i:hover {
+    color: #cccccc;
+    font-weight: bold;
+}
+
+#song-list {
+    padding-bottom: 7%;
+}
+
 
 /* player  */
 
@@ -29,7 +38,7 @@ body {
     min-height: 200px;
     padding: 20px 0 0 20px;
     background: #000;
-    color: #f4f4f4;
+    color: #fff;
 }
 
 #main-heading {
@@ -45,7 +54,7 @@ body {
     color: #C43538;
 }
 
-#app-menu #playlist-link {
+#app-menu .current {
     background: #C43538;
     color: #f4f4f4;
 }
@@ -159,5 +168,9 @@ footer {
         width: 15%;
         text-align: center;
         box-sizing: border-box;
+    }
+    /* songs */
+    #song-list {
+        padding-bottom: 20%;
     }
 }
