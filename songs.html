@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/bootstrap-4.5.3/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Pineapple Music | Songs</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+    <script src="https://use.fontawesome.com/91e725d675.js"></script>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row" id="row1">
+            <div class="col-lg-3" id="sidebar">
+                <div id="sidebar-header">
+
+                    <h3 id="main-heading">Pineapple Music</h3>
+
+                    <i class="fas fa-user-circle" id="icon"></i>
+
+                </div>
+
+
+                <div class="list-group list-group-flush" id="app-menu">
+                    <a class="list-group-item list-group-item-action lead" href="library.html">My Library</a>
+                    <a class="list-group-item list-group-item-action lead" href="index.html">Playlist</a>
+                    <a class="list-group-item list-group-item-action lead current" href="songs.html">Songs</a>
+                    <a class="list-group-item list-group-item-action lead" href="albums.html">Albums</a>
+                    <a class="list-group-item list-group-item-action lead" href="artists.html">Artists</a>
+                </div>
+            </div>
+
+            <div class="col-lg-9" id="main">
+                <div class="jumbotron" id="showcase"></div>
+
+
+                <h3 id="playlist-header">Songs</h3>
+                <div class="list-group list-group-flush" id="song-list">
+                    <a class="list-group-item list-group-item-action" href="#">Song 1</a>
+                    <a class="list-group-item list-group-item-action" href="#">Song 2</a>
+                    <a class="list-group-item list-group-item-action" href="#">Song 3</a>
+                    <a class="list-group-item list-group-item-action" href="#">Song 4</a>
+                    <a class="list-group-item list-group-item-action" href="#">Song 5</a>
+                    <a class="list-group-item list-group-item-action" href="#">Song 6</a>
+                    <a class="list-group-item list-group-item-action" href="#">Song 7</a>
+                    <a class="list-group-item list-group-item-action" href="#">Song 8</a>
+                    <a class="list-group-item list-group-item-action" href="#">Song 9</a>
+                    <a class="list-group-item list-group-item-action" href="#">Song 10</a>
+                    <a class="list-group-item list-group-item-action" href="#">Song 11</a>
+                    <a class="list-group-item list-group-item-action" href="#">Song 12</a>
+                    <a class="list-group-item list-group-item-action" href="#">Song 13</a>
+                    <a class="list-group-item list-group-item-action" href="#">Song 14</a>
+                    <a class="list-group-item list-group-item-action" href="#">Song 15</a>
+                    <a class="list-group-item list-group-item-action" href="#">Song 16</a>
+                    <a class="list-group-item list-group-item-action" href="#">Song 17</a>
+                    <a class="list-group-item list-group-item-action" href="#">Song 18</a>
+                    <a class="list-group-item list-group-item-action" href="#">Song 19</a>
+                    <a class="list-group-item list-group-item-action" href="#">Song 20</a>
+                    <a class="list-group-item list-group-item-action" href="#">Song 21</a>
+                    <a class="list-group-item list-group-item-action" href="#">Song 22</a>
+                    <a class="list-group-item list-group-item-action" href="#">Song 23</a>
+                    <a class="list-group-item list-group-item-action" href="#">Song 24</a>
+                    <a class="list-group-item list-group-item-action" href="#">Song 25</a>
+                    <a class="list-group-item list-group-item-action" href="#">Song 26</a>
+                    <a class="list-group-item list-group-item-action" href="#">Song 27</a>
+                    <a class="list-group-item list-group-item-action" href="#">Song 28</a>
+                    <a class="list-group-item list-group-item-action" href="#">Song 29</a>
+                    <a class="list-group-item list-group-item-action" href="#">Song 30</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <footer>
+        <div class="row" id="player">
+
+            <div class="boxes col-lg-2" id="play-icons">
+                <div id="media-buttons">
+                    <i class="fas fa-backward pr-4" id="back"></i>
+                    <i class="fas fa-play pr-4" id="play"></i>
+                    <i class="fas fa-forward" id="forward"></i>
+                </div>
+            </div>
+
+            <div class="col-lg-8" id="pg-bar">
+                <div class="progress" id="media-progress">
+                    <div class="progress-bar" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" id="p-bar1"></div>
+                </div>
+            </div>
+
+            <div class="boxes col-lg-2" id="bars-icon">
+                <i class="fas fa-bars" id="bars"></i>
+            </div>
+
+        </div>
+    </footer>
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="/bootstrap-4.5.3/dist/js/bootstrap.js"></script>
+</body>
+
+</html>
